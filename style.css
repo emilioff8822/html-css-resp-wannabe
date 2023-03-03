@@ -130,10 +130,18 @@ img {
 @media screen and (max-width:550px) {
     .row {
         flex-direction: column;
+        flex-wrap: wrap;
     }
    
 }
 
+@media screen and (max-width: 768px) {
+    .col {
+       width: 50%;
+       
+    }
+   
+}
 @media screen and (max-width: 768px) {
     .col {
        width: 50%;
